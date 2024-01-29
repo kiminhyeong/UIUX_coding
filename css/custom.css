@@ -451,6 +451,12 @@
   padding: 0 1.25rem;
 }
 
+.slider-section .swiper-slide > div.slider-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .slider-section .swiper-slide > div.slider-text {
   display: flex;
   flex-direction: column;
@@ -486,6 +492,7 @@
 .slider-section .swiper-slide > div > img {
   width: 100%;
   border-radius: 0.25rem;
+  height: 40vh;
 }
 
 .slider-section .container {
